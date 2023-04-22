@@ -1,16 +1,13 @@
+import { PageTitle } from './PageTitle/PageTitle';
+import userProfile from '../user.json';
+import { UserProfile } from './UserProfile/UserProfile';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <PageTitle text="Profile" />
+      <UserProfile userData={userProfile} />
     </div>
   );
 };
+console.log(userProfile);
