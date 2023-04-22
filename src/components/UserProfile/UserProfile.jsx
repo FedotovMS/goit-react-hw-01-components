@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import css from './UserProfile.module.css';
 
 export const UserProfile = ({ userData }) => {
