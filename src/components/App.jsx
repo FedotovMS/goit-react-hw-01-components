@@ -1,8 +1,8 @@
 import { PageTitle } from './PageTitle/PageTitle';
-import userProfile from '../user.json';
-import statData from '../data.json';
-import friendsData from '../friends.json';
-import transactionData from '../transactions.json';
+import userProfile from './Data/user.json';
+import statData from './Data/data.json';
+import friendsData from './Data/friends.json';
+import transactionData from './Data/transactions.json';
 
 import { UserProfile } from './UserProfile/UserProfile';
 import { Statistics } from './Statistics/Statistics';
@@ -14,10 +14,10 @@ export const App = () => {
     <div>
       <PageTitle text="Profile" />
       <UserProfile userData={userProfile} />
+      <Statistics title="Upload stats" stats={statData} />
       <Statistics stats={statData} />
       <FriendList friends={friendsData} />
       <TransactionHistory transactions={transactionData} />
     </div>
   );
 };
-console.log(userProfile);

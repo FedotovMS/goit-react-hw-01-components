@@ -64,9 +64,10 @@
   list-style: none;
 
   color: #f3f3f3;
-background: darkgray;
+  background: darkgray;
   margin: 0;
   padding: 0;
+  margin-bottom: 5px;
   
 }
 
