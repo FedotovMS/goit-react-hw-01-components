@@ -1,0 +1,23 @@
+.transactionHistory {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.head {
+  background-color: #424242;
+  color: #ffffff;
+}
+
+.head th {
+  padding: 10px 15px;
+}
+
+.body tr:nth-child(2n) {
+  background-color: #f3f3f3;
+}
+
+.body td {
+  padding: 10px 15px;
+}
